@@ -1,0 +1,8 @@
+.productoimg{
+    width: 13rem;
+}
+@media only screen and (max-width:800px)  {
+    .productoimg{
+      width: 16rem;
+    }
+  }

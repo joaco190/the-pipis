@@ -1,0 +1,12 @@
+
+@media (max-width: 320px) {
+    .btn-esconder {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .btn-esconder {
+      display: none;
+    }
+  }
