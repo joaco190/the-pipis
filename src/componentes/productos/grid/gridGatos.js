@@ -1,9 +1,7 @@
 import React from "react";
 import Productos from "../../productos";
 export default class GridGatos extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
     return (
       <>

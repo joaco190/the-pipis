@@ -1,9 +1,7 @@
 import React from "react";
 import Productos from "../../productos";
 export default class GridPerros extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
     return (
       <>
