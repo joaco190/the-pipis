@@ -1,5 +1,6 @@
 {
-  "name": "artio",
+  "name": "thepipis",
+  "homepage": "The Pipis - Venta de insumos para mascotas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
