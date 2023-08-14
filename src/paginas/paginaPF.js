@@ -20,7 +20,7 @@ export default class PaginaPF extends React.Component{
                         <div class="accordion-body">
                             Para realizar tu pedido, puedes seguir estos pasos:
                             <ul>
-                                <li>Visita nuestro sitio web y navega por nuestros productos./li</li>
+                                <li>Visita nuestro sitio web y navega por nuestros productos.</li>
                                 <li>Selecciona los alimentos para mascotas que deseas comprar y añádelos a tu carrito de compras.</li>
                                 <li>Procede al proceso de pago y proporciona la información necesaria, como dirección de envío y método de pago.</li>
                                 <li>Revisa cuidadosamente tu pedido antes de confirmarlo y haz clic en "Realizar pedido" para finalizar la compra.</li>
