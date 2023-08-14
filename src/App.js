@@ -23,7 +23,7 @@ import PaginaGatos from "./componentes/productos/paginaGatos";
 
 function App() {
   return (
-    <div className="container-flex bg-danger">
+    <div className="container-flex bg-warning">
       <Router>
       <Menu/>
       

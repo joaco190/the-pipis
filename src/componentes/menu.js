@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaDog } from "react-icons/fa";
-import {GiHollowCat} from "react-icons/gi";
-
+import { FaDog} from "react-icons/fa";
+import {GiHollowCat, GiPerspectiveDiceSixFacesRandom} from "react-icons/gi";
 
 
 export default class Menu extends React.Component{
@@ -53,7 +52,7 @@ export default class Menu extends React.Component{
                                                 <Link to="/contacto" className="nav-link" >Contacto</Link>
                                             </li>
                                             <li clasNames="nav-item">
-                                                <Link to="/perritos" className="nav-link" >Perritos randoms</Link>
+                                                <Link to="/perritos" className="nav-link" >Perritos randoms <GiPerspectiveDiceSixFacesRandom/></Link>
                                             </li>
                                             </ul>
                                         <form className="d-flex" role="search">

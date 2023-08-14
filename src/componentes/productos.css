@@ -6,3 +6,7 @@
       width: 16rem;
     }
   }
+
+.breakMyWords {
+    Hyphens: auto;
+  }
