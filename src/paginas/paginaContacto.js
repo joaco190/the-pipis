@@ -36,7 +36,7 @@ export default class PaginaContacto extends React.Component{
                     </textarea>
                 </div>
                 <br/>
-                <button className="d-block mx-auto btn btn-primary">Enviar</button>
+                <button className="d-block mx-auto btn btn-danger">Enviar</button>
             </form>
             </div>
 

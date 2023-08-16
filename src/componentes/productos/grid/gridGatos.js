@@ -30,7 +30,7 @@ export default class GridGatos extends React.Component {
              
           </div>
            
-          <div className="col-12 col-md-6 col-lg-6 col-xl-3">
+          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoElemento ? " d-none" : "")}>
               
             <Productos
               imgProducto="./img/productos/gatos/jug1.webp"
