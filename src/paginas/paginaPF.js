@@ -9,15 +9,15 @@ export default class PaginaPF extends React.Component{
         <>
         <div className="container pb-4">
 
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div className="accordion" id="accordionExample">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         ¿Cómo hago mi pedido?
                     </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Para realizar tu pedido, puedes seguir estos pasos:
                             <ul>
                                 <li>Visita nuestro sitio web y navega por nuestros productos.</li>
@@ -28,14 +28,14 @@ export default class PaginaPF extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         ¿Cuánto tarda en llegar mi compra?
                     </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div className="accordion-body">
                         El tiempo de entrega puede variar dependiendo de tu ubicación y el servicio de envío que elijas. 
                         Por lo general, hacemos todo lo posible para procesar y enviar los pedidos en un plazo de 2 días hábiles. 
                         Una vez que el pedido ha sido enviado, recibirás un número de seguimiento para rastrear el progreso de tu paquete. 
@@ -43,14 +43,14 @@ export default class PaginaPF extends React.Component{
                     </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         ¿Qué hago si mi compra no llega?
                     </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div className="accordion-body">
                         Si tu compra no llega en el tiempo estimado o tienes problemas con la entrega, te recomendamos seguir estos pasos:
                         <ul>
                             <li>Verifica la información de seguimiento proporcionada. Asegúrate de que la dirección de envío sea correcta y de que no haya problemas en el proceso de entrega.</li>

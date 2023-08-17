@@ -1,6 +1,9 @@
 import React from "react";
 import Productos from "../../productos";
+
 export default class GridGatos extends React.Component {
+
+
 
   render() {
     return (
@@ -8,7 +11,7 @@ export default class GridGatos extends React.Component {
         <div className="container m-2 d-flex justify-content-center">
         <div className="row container-center m-5">
            
-          <div className="col-12 col-md-6 col-lg-6 col-xl-3">
+          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoJuguete ? " d-none" : "")}>
               
             <Productos
               imgProducto="./img/productos/gatos/ali1.webp"
@@ -19,7 +22,7 @@ export default class GridGatos extends React.Component {
              
           </div>
            
-          <div className="col-12 col-md-6 col-lg-6 col-xl-3">
+          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoJuguete ? " d-none" : "")}>
               
             <Productos
               imgProducto="./img/productos/gatos/ali2.webp"
@@ -30,7 +33,7 @@ export default class GridGatos extends React.Component {
              
           </div>
            
-          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoElemento ? " d-none" : "")}>
+          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoAlimento ? " d-none" : "")}>
               
             <Productos
               imgProducto="./img/productos/gatos/jug1.webp"
@@ -41,7 +44,7 @@ export default class GridGatos extends React.Component {
              
           </div>
            
-          <div className="col-12 col-md-6 col-lg-6 col-xl-3">
+          <div className={"col-12 col-md-6 col-lg-6 col-xl-3"+(this.props.escondidoAlimento ? " d-none" : "")}>
               
             <Productos
               imgProducto="./img/productos/gatos/jug2.webp"

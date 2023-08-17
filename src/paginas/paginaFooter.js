@@ -30,7 +30,7 @@ export default class PaginaFooter extends React.Component{
             <div className="container">
             <div className="row fs-6">
             <div className="col-2"></div>
-            <div classaName="col-8">
+            <div className="col-8">
             <form className="form-inline" onSubmit={this.sumitted}>
                 <div className="form-group">
                     <label>Suscribite para recibir nuestras novedades: </label>

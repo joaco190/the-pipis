@@ -11,7 +11,7 @@ export default class PaginaPromociones extends React.Component{
             <h1 className="text-center">Ofertas y Promociones</h1>
             <Carousel/>
             <br/>
-            <img src="./img/promo.png" class="img-fluid " alt="promo"/>
+            <img src="./img/promo.png" className="img-fluid " alt="promo"/>
             </div>
             </>
         )

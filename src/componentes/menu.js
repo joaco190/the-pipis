@@ -48,10 +48,10 @@ export default class Menu extends React.Component{
                                             <li className="nav-item">
                                                 <Link to="/preguntas-frecuentes" className="nav-link" >Preguntas frecuentes</Link>
                                             </li>
-                                            <li clasNames="nav-item">
+                                            <li className="nav-item">
                                                 <Link to="/contacto" className="nav-link" >Contacto</Link>
                                             </li>
-                                            <li clasNames="nav-item">
+                                            <li className="nav-item">
                                                 <Link to="/perritos" className="nav-link" >Perritos randoms <GiPerspectiveDiceSixFacesRandom/></Link>
                                             </li>
                                             </ul>

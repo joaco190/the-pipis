@@ -22,12 +22,12 @@ export default class Productos extends React.Component{
     render(){
         return(
             <div className="card productoimg">
-            <img src={this.props.imgProducto} class="card-img-top" alt={this.props.nomProducto}/>
+            <img src={this.props.imgProducto} className="card-img-top" alt={this.props.nomProducto}/>
             <div className="card-body">
-                <h5 classsName="card-title">{this.props.nomProducto} </h5>
+                <h5 className="card-title">{this.props.nomProducto} </h5>
                 <p className="card-text">{this.props.descriProducto}</p>
                 <button className="btn btn-danger" onClick={this.toggleEscondido}>{this.state.buttonValue}</button>
-                <p class={"breakMyWords card card-text m-2 bg-warning-subtle " +(this.state.escondido ? " d-none" : "")}>{this.props.compleProducto}</p>
+                <p className={"breakMyWords card card-text m-2 bg-warning-subtle " +(this.state.escondido ? " d-none" : "")}>{this.props.compleProducto}</p>
             </div>
             
             </div>
